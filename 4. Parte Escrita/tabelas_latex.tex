@@ -1,0 +1,114 @@
+
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage[a4paper,left=0.5cm,right = 0.5cm,top = 0.5cm]{geometry}
+\usepackage[table,xcdraw]{xcolor}
+
+\begin{document}
+
+\begin{table}[]
+	\centering
+	\begin{tabular}{l|ccccccccc}
+		& \textbf{$PMSO$} & \textbf{{$X_1$}} & \textbf{$X_2$} & \textbf{$X_3$} & \textbf{$X_4$} & \textbf{$X_5$} & \textbf{$X_6$} & \textbf{$X_7$} & \textbf{$X_8$} \\ \hline \hline
+		\textbf{Mínimo}     & 1.273,0       & 0,0         & 4,0         & 7,0         & 0,0         & 0,0         & 0,0         & 0,0         & 0,0         \\
+		\textbf{1º Quartil} & 30.523,0      & 773,6       & 68,0        & 56,0        & 2.348,0     & 977,0       & 2,0         & 17,0        & 0,0         \\
+		\textbf{Mediana}    & 103.467,0     & 3.517,7     & 138,0       & 116,0       & 7.500,0     & 4.227,0     & 5,0         & 43,0        & 45,2        \\
+		\textbf{Média}      & 270.875,0     & 4.693,6     & 270,4       & 209,0       & 18.441,0    & 6.467,0     & 64,8        & 313,4       & 787,9       \\
+		\textbf{3º Quartil} & 262.355,0     & 6.848,9     & 345,0       & 275,0       & 19.527,0    & 9.485,0     & 80,0        & 375,0       & 500,7       \\
+		\textbf{Máximo}     & 1.439.704,0   & 18.376,7    & 1.218,0     & 763,0       & 98.256,0    & 41.208,0    & 346,0       & 1.841,0     & 7.297,6     \\ \hline \hline
+	\end{tabular}
+\end{table}
+
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+\begin{table}[]
+	\centering
+	\begin{tabular}{l|c}
+		\hline
+		\multicolumn{2}{l}{\textit{\textbf{Regressão linear}}}        \\ \hline
+		\multicolumn{1}{l|}{}      & \textit{\textbf{Coeficientes}}   \\ \hline
+		\multicolumn{1}{l|}{$\beta_0$} & -64.039,21                   \\
+		\multicolumn{1}{l|}{$\beta_1$} & 13,32                        \\
+		\multicolumn{1}{l|}{$\beta_2$} & 794,1                        \\
+		\multicolumn{1}{l|}{$\beta_3$} & 169,74                       \\
+		\multicolumn{1}{l|}{$\beta_4$} & {\color[HTML]{FE0000} \textbf{-0,52}}   \\
+		\multicolumn{1}{l|}{$\beta_5$} & 8,86                                  \\
+	 	\multicolumn{1}{l|}{$\beta_6$} & 621,45                                  \\
+		\multicolumn{1}{l|}{$\beta_7$} & {\color[HTML]{FE0000} \textbf{-189,72}} \\
+		\multicolumn{1}{l|}{$\beta_8$} & {\color[HTML]{FE0000} \textbf{-8,01}}   \\ 
+		\hline \hline
+	\end{tabular}
+\end{table}
+
+
+\newpage
+\begin{table}[]
+	\centering
+	\begin{tabular}{lcllll}
+		\hline
+		\multicolumn{6}{c}{\textbf{Testes de normalidade para os resíduos}}                                  \\ \hline
+		\multicolumn{1}{l|}{Teste}              & Estatística & \multicolumn{1}{l}{Hipótese nula} & \multicolumn{1}{l}{valor-p} &\multicolumn{1}{l}{Significância}& \multicolumn{1}{l}{\textbf{Veredicto}} \\ \hline
+		\multicolumn{1}{l|}{Shapiro-Wilk}       & $W = 0,92$    & $H_0 : X \sim N$ &   $5.54 \cdot 10^{-6}$    & $0,05$ & {\color[HTML]{FE0000} \textbf{Rejeitado}}                   \\
+		\multicolumn{1}{l|}{Anderon-Darling}    & $A = 2,25$   & $H_0 : X \sim N$ &    $9,76 \cdot 10^{-6}$    & $0,05$ &   {\color[HTML]{FE0000} \textbf{Rejeitado}}                 \\
+		\multicolumn{1}{l|}{Kolmogorov-Smirnov} & $D = 0,15$    & $H_0 : X \sim N$ &   $2,03 \cdot 10^{-7}$   & $0,05$ &   {\color[HTML]{FE0000} \textbf{Rejeitado}}                 \\ \hline
+	\end{tabular}
+\end{table}
+
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+\begin{table}[]
+		\centering
+	\begin{tabular}{clcll}
+		\hline 
+		\multicolumn{5}{c}{\textbf{Teste de significância} - \textit{Teste-F}}                                                                                                    \\ \hline \hline
+		Estatística & Hipótese nula                       & valor-p & Significância            & \textbf{Veredicto}                                            \\ \hline
+		F = 0,92    & \multicolumn{1}{c}{$\beta_1 = ... \beta_k = 0$} & $2,2 \cdot 10^{-16}$    & \multicolumn{1}{c}{0,05} & \multicolumn{1}{c}{{\color[HTML]{036400} \textbf{Rejeitado}}} \\ \hline 
+	\end{tabular}
+\end{table}
+
+%%%%%%%%%
+
+\begin{table}[]
+	\centering
+	\begin{tabular}{lccllll}
+		\hline
+		\multicolumn{7}{c}{\textbf{Testes dos pressupostos do modelo}}  
+		                                \\ \hline
+		\multicolumn{1}{l|}{Teste}  & \multicolumn{1}{l}{Pressuposto} & \multicolumn{1}{l}{Estatística} & \multicolumn{1}{l}{Hipótese nula} & \multicolumn{1}{l}{valor-p} &\multicolumn{1}{l}{Significância} & \multicolumn{1}{l}{\textbf{Veredicto}} \\ \hline
+		
+		\multicolumn{1}{l|}{Teste-F} & \multicolumn{1}{l}{Significância}  & $F = 0,92$    & $\beta_1 = ... \beta_k = 0$ &   $2.20 \cdot 10^{-16}$    & $0,05$ & {\color[HTML]{036400} \textbf{Rejeitado}} \\
+		\multicolumn{1}{l|}{Breusch-Pagan} & \multicolumn{1}{l}{Homoscedasticidade}    & $LM = 2,25$   & $\delta_1 = ... \delta_k = 0$ &    $6,50 \cdot 10^{-8}$    & $0,05$ &   {\color[HTML]{FE0000} \textbf{Rejeitado}}                 \\
+		
+		\multicolumn{1}{l|}{Durbin-Watson} & \multicolumn{1}{l}{Autocorrelação} & $d= 1,07$    & Correlação = $0$ &   $2,46 \cdot 10^{-10}$   & $0,05$ &   {\color[HTML]{FE0000} \textbf{Rejeitado}}                 \\ \hline
+	\end{tabular}
+\end{table}
+
+
+\begin{table}[]
+	\centering
+	\begin{tabular}{ccc}
+		\hline
+		\multicolumn{3}{c}{\textbf{Regressão Gama}}               \\ \hline
+		\multicolumn{1}{l}{Coeficientes} & Forma geral & Step AIC \\ \hline
+		$\beta_0$                        & -1.754,9    & -1.273,8 \\
+		$\beta_1$                        & 19,6        & 17,9     \\
+		$\beta_2$                        & 376,0       & 431,0    \\
+		$\beta_3$                        & -           & -        \\
+		$\beta_4$                        & -           & -        \\
+		$\beta_5$                        & -           & -        \\
+		$\beta_6$                        & 1.006,3     & 585,7    \\
+		$\beta_7$                        & -           & -        \\
+		$\beta_8$                        & -25,5       & -        \\ \hline
+	\end{tabular}
+	\caption{Cálculo da variação}
+	\label{tab:my-table}
+\end{table}
+
+
+
+\end{document}

@@ -1,0 +1,28 @@
+
+tau: 0.5
+
+
+
+
+
+
+
+min 
+
+
+subject to:
+
+e = e1 + e2
+
+y_j = alpha + beta_1*x1_j + beta_2*x_2_j + beta_3*x_3_j + beta_4*x_4_j + beta_5*x_5_j + beta_6*x_6_j + beta_7*x_7_j
++ beta_8*x_8_j + e1_j +e2_j
+
+beta_1 >=0
+beta_2 >=0
+beta_3 >=0
+beta_4 >=0
+beta_5 >=0
+beta_6 >=0
+beta_7 >=0
+beta_8 >=0
+
