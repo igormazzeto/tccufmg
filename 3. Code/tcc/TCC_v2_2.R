@@ -60,11 +60,11 @@ if(!require(lmtest)) install.packages("lmtest") else library(lmtest)
   setwd("~/OneDrive/Documentos/7. Especialização/3. TCC")
 
   ### MacOS
-  dados =  read_excel("~/Library/CloudStorage/OneDrive-Pessoal/Documentos/7. Especialização/3. TCC/3. Códigos/tcc/BaseCompilada_TS14_2022.xlsx", 
+  dados =  read_excel("~/Library/CloudStorage/OneDrive-Pessoal/Documentos/7. Especialização/3. TCC/3. Code/tcc/BaseCompilada_TS14_2022.xlsx", 
                       sheet = "DadosEscores")
   ###  Windows
   library(readxl)
-  setwd("~/OneDrive/Documentos/7. Especialização/3. TCC/3. Códigos/tcc")
+  setwd("~/OneDrive/Documentos/7. Especialização/3. TCC/3. Code/tcc")
   dados <- read_excel("BaseCompilada_TS14_2022.xlsx",
                       sheet = "DadosEscores")
   
