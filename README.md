@@ -44,33 +44,39 @@ Para entrar em contato com o autor ou autores do TCC, utilize as seguintes infor
 This repository contains the results of the final project titled "Estimation of the main drivers of operational costs of Brazilian electricity transmission companies using regression models and linear programming," presented as a requirement for the completion of the Specialization in Statistics program at the Federal University of Minas Gerais.
 
 ## Repository Structure
+
 The repository is organized as follows:
 
-1. NT ABNT: Folder with technical notes issued by ANEEL used as a subsidy for the work.
-2. Drafts: Folder contains text files with initial drafts for the work.
-3. Code: Contains the source code and other .r files used as support. It also contains the database provided by ANEEL, which was used for the work.
-4. Text: Contains the datasets used in the TCC.
-5. References: Some articles used for referencing the applied theory.
-6. TCC Charts: Charts generated in R.
-7. TCC Pictures: Images used in the final text.
-8. Final files: Final documentation of the work.
-Navigating the Repository
-To access the final text document of the TCC, go to the folder [8. Final files] and click on [TCC_IMRS_UFMG_2023.pdf].
-The presentation slides are located in the folder [8. Final files] under the name [Presentation_TCC_IMRS_UFMG_2023.pdf].
-The source code for the project can be found in the [tcc] folder within [3. Code] under the name [tccmainfile.r].
-The dataset used is in the [tcc] folder within [3. Code] under the name [BaseCompilada_TS14_2022.xlsx].
-The results of the TCC are in the [Results] folder.
-The list of bibliographic references can be found in the [5. References] folder.
-In [Contact], you will find information to get in touch with the author of the work.
-The final work approval documentation can be found in [8. Final files] under [Nota.pdf] and [Ata.pdf].
-Contributions
+- **1. NT ABNT**: Folder with technical notes issued by ANEEL used as a subsidy for the work.
+- **2. Drafts**: Folder contains text files with initial drafts for the work.
+- **3. Code**: Contains the source code and other .r files used as support. It also contains the database provided by ANEEL, which was used for the work.
+- **4. Text**: Contains the datasets used in the TCC.
+- **5. References**: Some articles used for referencing the applied theory.
+- **6. TCC Charts**: Charts generated in R.
+- **7. TCC Pictures**: Images used in the final text.
+- **8. Final files**: Final documentation of the work.
+
+## Navigating the Repository
+
+1. To access the final text document of the TCC, go to the folder [8. Final files] and click on [TCC_IMRS_UFMG_2023.pdf].
+2. The presentation slides are located in the folder [8. Final files] under the name [Presentation_TCC_IMRS_UFMG_2023.pdf].
+3. The source code for the project can be found in the [tcc] folder within [3. Code] under the name [tccmainfile.r].
+4. The dataset used is in the [tcc] folder within [3. Code] under the name [BaseCompilada_TS14_2022.xlsx].
+5. The results of the TCC are in the [Results] folder.
+6. The list of bibliographic references can be found in the [5. References] folder.
+7. In [Contact], you will find information to get in touch with the author of the work.
+8. The final work approval documentation can be found in [8. Final files] under [Nota.pdf] and [Ata.pdf].
+
+## Contributions
+
 Contributions are welcome! If you wish to contribute to this project, please follow the contribution guidelines described in the CONTRIBUTING.md file (if applicable).
 
-Contact
-To get in touch with the author of the project, use the following information:
+## Contact
 
-Name: [Igor Mazzeto]
-Email: [igormzzto@gmail.com]
-GitHub: [https://github.com/igormazzeto]
+To get in touch with the author of the TCC, use the following information:
+
+- Name: [Igor Mazzeto]
+- Email: [igormzzto@gmail.com]
+- GitHub: [https://github.com/igormazzeto]
 ```
 
